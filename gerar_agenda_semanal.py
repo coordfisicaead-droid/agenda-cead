@@ -215,11 +215,11 @@ def _desenhar_cabecalho(ax, polo: str, modulo: str, label_semana: str):
 # =============================================================================
 # Constantes de layout — coluna lateral (Opção A aprovada)
 # =============================================================================
-W_DIA    = 0.130   # 13% da largura para coluna do dia
-COL_HORA = 0.133   # início da coluna de hora (logo após a coluna do dia)
+W_DIA    = 0.120   # 13% da largura para coluna do dia
+COL_HORA = 0.121   # início da coluna de hora (logo após a coluna do dia)
 W_HORA   = 0.065
 COL_ATIV = COL_HORA + W_HORA + 0.005
-COL_POLO = 0.625
+COL_POLO = 0.525
 COL_PROF = 0.790
 
 
